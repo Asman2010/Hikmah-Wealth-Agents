@@ -1,57 +1,214 @@
-# HikmahWealthAgents Crew
+<p align="center">
+  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+</p>
+<p align="center">
+    <h1 align="center">HIKMAH-WEALTH-AGENTS</h1>
+</p>
+<p align="center">
+    <em><code>Your Intelligent Stock Research Assistant</code></em>
+</p>
+<p align="center">
+	<img src="https://img.shields.io/github/license/Asman2010/Hikmah-Wealth-Agents.git?style=flat&color=0080ff" alt="license">
+	<img src="https://img.shields.io/github/last-commit/Asman2010/Hikmah-Wealth-Agents.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+	<img src="https://img.shields.io/github/languages/top/Asman2010/Hikmah-Wealth-Agents.git?style=flat&color=0080ff" alt="repo-top-language">
+	<img src="https://img.shields.io/github/languages/count/Asman2010/Hikmah-Wealth-Agents.git?style=flat&color=0080ff" alt="repo-language-count">
+<p>
+<p align="center">
+		<em>Developed with the software and tools below.</em>
+</p>
+	![LangChain](https://img.shields.io/badge/LangChain-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cGF0aCBkPSJNMTYgNC4wMDJhMTIgMTIgMCAxIDAgMCAyNGExMiAxMiAwIDAgMCAwLTI0em0wIDIyQTEwIDEwIDAgMSAxIDI2IDE2IDEwIDEwIDAgMCAxIDE2IDI2eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0xNiA4YTggOCAwIDEgMCAwIDE2IDggOCAwIDAgMCAwLTE2em0wIDE0YTYgNiAwIDEgMSA2LTYgNiA2IDAgMCAxLTYgNnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=) 
+	
+![CrewAI](https://img.shields.io/badge/CrewAI-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cGF0aCBkPSJNMTYgNC4wMDJhMTIgMTIgMCAxIDAgMCAyNGExMiAxMiAwIDAgMCAwLTI0em0wIDIyQTEwIDEwIDAgMSAxIDI2IDE2IDEwIDEwIDAgMCAxIDE2IDI2eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0xNiA4YTggOCAwIDEgMCAwIDE2IDggOCAwIDAgMCAwLTE2em0wIDE0YTYgNiAwIDEgMSA2LTYgNiA2IDAgMCAxLTYgNnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=)
+<hr>
 
-Welcome to the HikmahWealthAgents Crew project, powered by [crewAI](https://crewai.com). This template is designed to help you set up a multi-agent AI system with ease, leveraging the powerful and flexible framework provided by crewAI. Our goal is to enable your agents to collaborate effectively on complex tasks, maximizing their collective intelligence and capabilities.
+## 🔗 Quick Links
 
-## Installation
+> - [📍 Overview](#-overview)
+> - [📦 Features](#-features)
+> - [📂 Repository Structure](#-repository-structure)
+> - [🧩 Modules](#-modules)
+> - [🚀 Getting Started](#-getting-started)
+>   - [⚙️ Installation](#️-installation)
+>   - [🤖 Running Hikmah-Wealth-Agents](#-running-Hikmah-Wealth-Agents)
+> - [📄 License](#-license)
+> - [👏 Acknowledgments](#-acknowledgments)
 
-Ensure you have Python >=3.10 <=3.13 installed on your system. This project uses [Poetry](https://python-poetry.org/) for dependency management and package handling, offering a seamless setup and execution experience.
+---
 
-First, if you haven't already, install Poetry:
+## 📍 Overview
 
-```bash
-pip install poetry
+Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock research, focusing on both fundamental and technical analysis of stocks in India. Leveraging powerful AI technologies such as Land Chain and Crew AI, and using the Gemini API along with large language models (LLMs), this tool provides comprehensive insights and analysis to support investors in making informed decisions.
+
+---
+
+## 📦 Features
+
+- **Fundamental Analysis**: In-depth analysis of a company's financial statements, including balance sheets, income statements, and cash flow statements.
+- **Technical Analysis**: Evaluation of stock price movements, patterns, and technical indicators to forecast future price trends.
+- **Automated News Fetching**: Real-time news aggregation and sentiment analysis to keep you updated on the latest market trends.
+- **Comprehensive Reports**: Generation of detailed investment reports including economic analysis, company news analysis, and investment recommendations.
+- **User-Friendly Interface**: An intuitive interface built with Streamlit for seamless user experience.
+
+---
+
+## 📂 Repository Structure
+
+```sh
+└── Hikmah-Wealth-Agents/
+    ├── README.md
+    ├── requirements.txt
+    ├── scripts.txt
+    └── src
+        └── app
+            ├── .streamlit
+            │   └── config.toml
+            ├── app.py
+            └── backend
+                ├── __init__.py
+                ├── config
+                │   ├── agents.yaml
+                │   └── tasks.yaml
+                ├── crew.py
+                ├── main.py
+                ├── reports
+                │   ├── Company News Analysis.md
+                │   ├── Economic Analysis.md
+                │   ├── Final Investment Report.md
+                │   ├── Fundamental Analysis.md
+                │   └── Investment Analysis.md
+                └── tools
+                    ├── __init__.py
+                    ├── fetch_news.py
+                    └── news_sentiment.py
 ```
 
-Next, navigate to your project directory and install the dependencies:
+---
 
-1. First lock the dependencies and then install them:
-```bash
-poetry lock
+## 🧩 Modules
+
+<details closed><summary>.</summary>
+
+| File                                                                                                   | Summary                                                       |
+| ---                                                                                                    | ---                                                           |
+| [scripts.txt](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/scripts.txt)           | Contains script references for various automation tasks.      |
+| [requirements.txt](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/requirements.txt) | Lists the Python dependencies required for the project.       |
+
+</details>
+
+<details closed><summary>src.app</summary>
+
+| File                                                                                       | Summary                                      |
+| ---                                                                                        | ---                                          |
+| [app.py](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/src/app/app.py) | Main application file for the Streamlit app. |
+
+</details>
+
+<details closed><summary>src.app.backend</summary>
+
+| File                                                                                                 | Summary                                                      |
+| ---                                                                                                  | ---                                                          |
+| [main.py](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/src/app/backend/main.py) | Entry point for the backend operations.                      |
+| [crew.py](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/src/app/backend/crew.py) | Manages the Crew AI functionalities and integrations.        |
+
+</details>
+
+<details closed><summary>src.app.backend.config</summary>
+
+| File                                                                                                                | Summary                                          |
+| ---                                                                                                                 | ---                                              |
+| [tasks.yaml](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/src/app/backend/config/tasks.yaml)   | Configuration for various analysis tasks.        |
+| [agents.yaml](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/src/app/backend/config/agents.yaml) | Configuration for AI agents and their behaviors. |
+
+</details>
+
+<details closed><summary>src.app..streamlit</summary>
+
+| File                                                                                                            | Summary                                |
+| ---                                                                                                             | ---                                    |
+| [config.toml](https://github.com/Asman2010/Hikmah-Wealth-Agents.git
+
+/blob/master/src/app/.streamlit/config.toml) | Configuration file for Streamlit setup.|
+
+</details>
+
+---
+
+## 🚀 Getting Started
+
+***Requirements***
+
+Ensure you have the following dependencies installed on your system:
+
+* **Python**: `version 3.8+`
+
+### ⚙️ Installation
+
+1. Clone the Hikmah-Wealth-Agents repository:
+
+```sh
+git clone https://github.com/Asman2010/Hikmah-Wealth-Agents.git
 ```
-```bash
-poetry install
-```
-### Customizing
 
-**Add your `OPENAI_API_KEY` into the `.env` file**
+2. Change to the project directory:
 
-- Modify `src/hikmah_wealth_agents/config/agents.yaml` to define your agents
-- Modify `src/hikmah_wealth_agents/config/tasks.yaml` to define your tasks
-- Modify `src/hikmah_wealth_agents/crew.py` to add your own logic, tools and specific args
-- Modify `src/hikmah_wealth_agents/main.py` to add custom inputs for your agents and tasks
-
-## Running the Project
-
-To kickstart your crew of AI agents and begin task execution, run this from the root folder of your project:
-
-```bash
-poetry run hikmah_wealth_agents
+```sh
+cd Hikmah-Wealth-Agents
 ```
 
-This command initializes the Hikmah Wealth Agents Crew, assembling the agents and assigning them tasks as defined in your configuration.
+3. Install the dependencies:
 
-This example, unmodified, will run the create a `report.md` file with the output of a research on LLMs in the root folder.
+```sh
+pip install -r requirements.txt
+```
 
-## Understanding Your Crew
+### 🤖 Running Hikmah-Wealth-Agents
 
-The Hikmah Wealth Agents Crew is composed of multiple AI agents, each with unique roles, goals, and tools. These agents collaborate on a series of tasks, defined in `config/tasks.yaml`, leveraging their collective skills to achieve complex objectives. The `config/agents.yaml` file outlines the capabilities and configurations of each agent in your crew.
+Navigate to src/app folder:
 
-## Support
+```
+cd src/app
+```
 
-For support, questions, or feedback regarding the HikmahWealthAgents Crew or crewAI.
-- Visit our [documentation](https://docs.crewai.com)
-- Reach out to us through our [GitHub repository](https://github.com/joaomdmoura/crewai)
-- [Join our Discord](https://discord.com/invite/X4JWnZnxPb)
-- [Chat with our docs](https://chatg.pt/DWjSBZn)
+Use the following command to run Hikmah-Wealth-Agents:
 
-Let's create wonders together with the power and simplicity of crewAI.
+```sh
+streamlit run app.py
+```
+
+### 🛜 Setup SearXNG
+
+- [Install docker](https://docs.docker.com/install/ "https://docs.docker.com/install/")
+- Get searxng-docker
+    
+    ```sh
+    cd /usr/local
+    git clone https://github.com/searxng/searxng-docker.git
+    cd searxng-docker
+    ```
+    
+- Edit the [.env](https://github.com/searxng/searxng-docker/blob/master/.env "https://github.com/searxng/searxng-docker/blob/master/.env") file to set the hostname and an email
+- Generate the secret key `sed -i "s|ultrasecretkey|$(openssl rand -hex 32)|g" searxng/settings.yml`
+- When you install SearxNG, the only active output format by default is the HTML format. You need to activate the `json` format to use the API. This can be done by adding the following line to the `settings.yml` file:
+
+```
+search:   
+	formats:      
+		- html       
+		- json
+```
+- Check everything is working: `docker compose up`
+- Run SearXNG in the background: `docker compose up -d`
+
+---
+
+## 📄 License
+
+This project is protected under the [MIT License](https://choosealicense.com/licenses/mit/). For more details, refer to the [LICENSE](https://github.com/Asman2010/Hikmah-Wealth-Agents/blob/main/LICENSE) file.
+
+---
+
+## 👏 Acknowledgments
+
+- Developed for the AI Agents Contest hosted by Nvidia and LangChain.
+- Thanks to the contributors and the open-source community for their invaluable support and tools.
+- Special thanks to the developers of the libraries and frameworks used in this project.
