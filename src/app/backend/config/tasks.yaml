@@ -1,0 +1,127 @@
+company_news_analysis:
+  description: >
+    Collect and summarize recent news articles, press
+    releases, and market analyses related to the stock and
+    its industry. Pay special attention to significant events, market news sentiment,
+    analysts' opinions, and upcoming events like earnings reports. 
+
+    Your final report must include:
+    - A comprehensive summary of the latest news
+    - Notable shifts in market sentiment
+    - Analysis of the stock's news with its sentiment score
+    - Potential impacts on the stock
+    - The stock ticker
+    - Analyst's Recommendations For Investor on the stocks To Buy Or Sell
+
+    Use the most recent data available.
+
+    Selected company: {company}
+
+    If you do your BEST WORK, I'll give you a $10,000 commission!
+
+  expected_output: >
+    A comprehensive report covering the latest news, sentiment analysis, analyst's recommendations on the stock's future and potential impacts on the stock.
+
+
+investment_analysis:
+  description: >
+    Conduct a thorough analysis of the stock's financial
+    health and market performance. Examine key financial metrics
+    such as P/E ratio, EPS growth, revenue trends, and 
+    debt-to-equity ratio. Compare the stock's performance
+    with industry peers and overall market trends.
+
+    Your final report must include:
+    - An expanded summary of the initial analysis
+    - An assessment of the stock's financial standing
+    - Strengths and weaknesses
+    - Comparison with competitors in the current market, DO NOT GIVE A IN DEPTH ANALYSIS ON COMPETITORS
+
+    Use the most recent data available.
+
+    Selected company: {company}
+
+    If you do your BEST WORK, I'll give you a $10,000 commission!
+  expected_output: >
+    A detailed financial analysis report with comparisons to competitors.
+
+
+fundamental_analysis:
+  description: >
+    Analyze the financial statements and relevant financial data
+    of the target company. Focus on key metrics such as Quarterly Results, 
+    Profit & Loss, Sales Growth, Profit Growth, Stock Price CAGR, 
+    Return on Equity, Balance Sheet, Cash Flow, Ratio, Share Holding Pattern,
+    Examine the balance sheet to assess the company's liquidity, solvency, and
+    overall financial health. Evaluate historical performance and
+    identify trends or anomalies. Compare the company's financial ratios
+    to industry benchmarks and competitors.
+
+    Your final report must include:
+    - A detailed analysis of financial statements
+    - Comparisons to industry benchmarks
+    - Insights and recommendations for investors
+    - Your Opinion To Buy, Sell or Hold the stock
+
+    Selected company: {company}
+
+    If you do your BEST WORK, I'll give you a $10,000 commission!
+
+  expected_output: >
+    A detailed fundamental analysis report with industry benchmarks, your opinion to buy, sell or hold the stock and recommendations.
+
+
+economic_analysis:
+  description: >
+    Evaluate the growth potential of various sectors by analyzing
+    macroeconomic indicators, market trends, and policy changes.
+    Assess global economic conditions such as GDP growth, inflation rates,
+    and employment data to determine their impact on the target sector.
+    Research industry-specific factors, such as technological advancements
+    and regulatory environments on INDIA. Integrate forecasts from reputable sources
+    and model potential scenarios.
+
+    Your final report must include:
+    - A comprehensive macroeconomic analysis
+    - Sector growth potential and industry trends
+    - Potential risks and opportunities for the company
+
+    Use the most recent data available.
+
+    Selected company: {company}
+
+    If you do your BEST WORK, I'll give you a $10,000 commission!
+
+  expected_output: >
+    A comprehensive macroeconomic analysis report with sector growth potential and risks.
+
+
+report_writing:
+  description: >
+    Compile the data and insights from the financial, fundamental and economic analyses
+    into a structured, coherent report. Begin with an executive summary
+    outlining the report's objectives, key findings, and major recommendations.
+    Include a methodology section, a detailed macroeconomic analysis, sector growth
+    potential, and risk assessment.
+    
+    Review the context you got and expand each topic into a full section for a report.
+    Make sure the report is detailed and contains any and all relevant information.
+
+    Your final report must include:
+    - An executive summary
+    - Methodology used for analysis
+    - Comprehensive macroeconomic analysis
+    - Sector growth potential and competitive landscape
+    - Scenario analysis (best-case, base-case, worst-case)
+    - Strategic recommendations
+    - Appendices with data sources and detailed tables
+
+    Ensure the report is clear, compelling, and actionable for stakeholders.
+
+    Selected company: {company}
+
+    If you do your BEST WORK, I'll give you a $10,000 commission!
+
+  expected_output: >
+    A final comprehensive report compiling all analyses and strategic recommendations.
+
