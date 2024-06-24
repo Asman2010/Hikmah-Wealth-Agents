@@ -20,7 +20,7 @@
 
 ## 📍 Overview
 
-Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock research, focusing on both fundamental and technical analysis of stocks in India. Leveraging powerful AI technologies such as Land Chain and Crew AI, and using the Gemini API along with large language models (LLMs), this tool provides comprehensive insights and analysis to support investors in making informed decisions.
+Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock research, focusing on both fundamental and technical analysis of stocks in India. Leveraging powerful AI technologies such as LangChain and Crew AI, and using the Gemini API as a large language model (LLM) provider, this tool provides comprehensive insights and analysis to support investors in making informed decisions. The key feature of this project is the Sentiment Analyzer, which uses the default LLM. Although the default LLM can perform sentiment analysis, given the financial focus of this project, the best model for analyzing financial texts is FINBERT, as it has been especially fine-tuned for the sentiment analysis of financial statements.
 
 ---
 
@@ -40,7 +40,6 @@ Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock resear
 └── Hikmah-Wealth-Agents/
     ├── README.md
     ├── requirements.txt
-    ├── scripts.txt
     └── src
         └── app
             ├── .streamlit
@@ -73,7 +72,6 @@ Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock resear
 
 | File                                                                                                   | Summary                                                       |
 | ---                                                                                                    | ---                                                           |
-| [scripts.txt](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/scripts.txt)           | Contains script references for various automation tasks.      |
 | [requirements.txt](https://github.com/Asman2010/Hikmah-Wealth-Agents.git/blob/master/requirements.txt) | Lists the Python dependencies required for the project.       |
 
 </details>
@@ -175,19 +173,12 @@ streamlit run app.py
 
 ```
 search:   
-	formats:      
-		- html       
-		- json
+  formats:      
+	  - html       
+	  - json
 ```
 - Check everything is working: `docker compose up`
 - Run SearXNG in the background: `docker compose up -d`
-
----
-
-## 📄 License
-
-This project is protected under the [MIT License](https://choosealicense.com/licenses/mit/). For more details, refer to the [LICENSE](https://github.com/Asman2010/Hikmah-Wealth-Agents/blob/main/LICENSE) file.
-
 ---
 
 ## 👏 Acknowledgments
