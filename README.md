@@ -31,7 +31,6 @@ Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock resear
 - [x] Utilize NVIDIA and LangChain technologies in your project
 - [ ] You can also use other popular tools and frameworks, such as OpenAI's API **(Used other LLM's)**
 - [ ] Fine-tune any large language model (LLM) as needed for your application **(Not needed)**
-- [x] Deploy your model using NVIDIA's AI Foundation endpoints or Hugging Face
 - [x] Your application can be a desktop app, web app, mobile app, or any other format
 - [x] If you don't have the required GPU hardware, you can use NVIDIA's free API calls
 - [x] You do not need to use all the tools from both NVIDIA and LangChain, but use at least one from each
