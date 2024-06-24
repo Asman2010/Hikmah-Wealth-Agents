@@ -1,6 +1,5 @@
-<img src="🤖" width="100" />
 <p align="center">
-    <h1 align="center">HIKMAH-WEALTH-AGENTS</h1>
+    <h1 align="center">HIKMAH WEALTH PROGRAM - 🤖</h1>
 </p>
 <p align="center">
     <em><code>Your Intelligent Stock Research Assistant</code></em>
