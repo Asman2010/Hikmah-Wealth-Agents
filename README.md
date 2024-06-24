@@ -20,10 +20,23 @@
 
 ## 📍 Overview
 
-Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock research, focusing on both fundamental and technical analysis of stocks in India. Leveraging powerful AI technologies such as LangChain and Crew AI, and using the Gemini API as a large language model (LLM) provider, this tool provides comprehensive insights and analysis to support investors in making informed decisions. The key feature of this project is the Sentiment Analyzer, which uses the default LLM. Although the default LLM can perform sentiment analysis, given the financial focus of this project, the best model for analyzing financial texts is FINBERT, as it has been especially fine-tuned for the sentiment analysis of financial statements.
+Hikmah-Wealth-Agents is an advanced AI-driven platform designed for stock research, focusing on both fundamental and technical analysis of stocks in India. Leveraging powerful AI technologies such as LangChain and Crew AI, and using the Nvidia NIM API for LLM's. I've used Mixtral 7x22b and Llama-70-b for LLM's. This Models provides comprehensive insights and analysis to support investors in making informed decisions. The key feature of this project is the Sentiment Analyzer, which uses the default LLM. Although the default LLM can perform sentiment analysis, given the financial focus of this project, the best model for analyzing financial texts is FINBERT, as it has been especially fine-tuned for the sentiment analysis of financial statements.
 
 ---
 
+## ✔️ Project Requirements 
+
+- [x] Build practical, efficient, and creative text and multimodal agents in an area of your choice
+- [x] Utilize NVIDIA and LangChain technologies in your project
+- [ ] You can also use other popular tools and frameworks, such as OpenAI's API **(Used other LLM's)**
+- [ ] Fine-tune any large language model (LLM) as needed for your application **(Not needed)**
+- [x] Deploy your model using NVIDIA's AI Foundation endpoints or Hugging Face
+- [x] Your application can be a desktop app, web app, mobile app, or any other format
+- [x] If you don't have the required GPU hardware, you can use NVIDIA's free API calls
+- [x] You do not need to use all the tools from both NVIDIA and LangChain, but use at least one from each
+- [x] Keep your API keys private and do not include them in your submission
+
+---
 ## 📦 Features
 
 - **Fundamental Analysis**: In-depth analysis of a company's financial statements, including balance sheets, income statements, and cash flow statements.
