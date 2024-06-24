@@ -8,6 +8,7 @@
 
 > - [📍 Overview](#-overview)
 > - [📦 Features](#-features)
+> - [✔️ Project Requirements](#-project-requirements)
 > - [📂 Repository Structure](#-repository-structure)
 > - [🧩 Modules](#-modules)
 > - [🚀 Getting Started](#-getting-started)
