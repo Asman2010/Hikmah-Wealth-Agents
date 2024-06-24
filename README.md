@@ -1,25 +1,11 @@
-<p align="center">
-  <img src="https://cdn-icons-png.flaticon.com/512/6295/6295417.png" width="100" />
+  <img src="![image](https://github.com/Asman2010/Hikmah-Wealth-Agents/assets/142419243/aea9bd19-4fe8-4bd0-8c18-7fbdf8d282e6)
+" width="100" />
 </p>
 <p align="center">
     <h1 align="center">HIKMAH-WEALTH-AGENTS</h1>
 </p>
 <p align="center">
     <em><code>Your Intelligent Stock Research Assistant</code></em>
-</p>
-<p align="center">
-	<img src="https://img.shields.io/github/license/Asman2010/Hikmah-Wealth-Agents.git?style=flat&color=0080ff" alt="license">
-	<img src="https://img.shields.io/github/last-commit/Asman2010/Hikmah-Wealth-Agents.git?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-	<img src="https://img.shields.io/github/languages/top/Asman2010/Hikmah-Wealth-Agents.git?style=flat&color=0080ff" alt="repo-top-language">
-	<img src="https://img.shields.io/github/languages/count/Asman2010/Hikmah-Wealth-Agents.git?style=flat&color=0080ff" alt="repo-language-count">
-<p>
-<p align="center">
-		<em>Developed with the software and tools below.</em>
-</p>
-	![LangChain](https://img.shields.io/badge/LangChain-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cGF0aCBkPSJNMTYgNC4wMDJhMTIgMTIgMCAxIDAgMCAyNGExMiAxMiAwIDAgMCAwLTI0em0wIDIyQTEwIDEwIDAgMSAxIDI2IDE2IDEwIDEwIDAgMCAxIDE2IDI2eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0xNiA4YTggOCAwIDEgMCAwIDE2IDggOCAwIDAgMCAwLTE2em0wIDE0YTYgNiAwIDEgMSA2LTYgNiA2IDAgMCAxLTYgNnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=) 
-	
-![CrewAI](https://img.shields.io/badge/CrewAI-blue?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzMiAzMiIgd2lkdGg9IjY0IiBoZWlnaHQ9IjY0Ij48cGF0aCBkPSJNMTYgNC4wMDJhMTIgMTIgMCAxIDAgMCAyNGExMiAxMiAwIDAgMCAwLTI0em0wIDIyQTEwIDEwIDAgMSAxIDI2IDE2IDEwIDEwIDAgMCAxIDE2IDI2eiIgZmlsbD0iI2ZmZiIvPjxwYXRoIGQ9Ik0xNiA4YTggOCAwIDEgMCAwIDE2IDggOCAwIDAgMCAwLTE2em0wIDE0YTYgNiAwIDEgMSA2LTYgNiA2IDAgMCAxLTYgNnoiIGZpbGw9IiNmZmYiLz48L3N2Zz4=)
-<hr>
 
 ## 🔗 Quick Links
 
