@@ -141,21 +141,7 @@ cd Hikmah-Wealth-Agents
 ```sh
 pip install -r requirements.txt
 ```
-
-### 🤖 Running Hikmah-Wealth-Agents
-
-Navigate to src/app folder:
-
-```
-cd src/app
-```
-
-Use the following command to run Hikmah-Wealth-Agents:
-
-```sh
-streamlit run app.py
-```
-
+---
 ### 🛜 Setup SearXNG
 
 - [Install docker](https://docs.docker.com/install/ "https://docs.docker.com/install/")
@@ -180,6 +166,21 @@ search:
 - Check everything is working: `docker compose up`
 - Run SearXNG in the background: `docker compose up -d`
 ---
+
+
+### 🤖 Running Hikmah-Wealth-Agents
+
+Navigate to src/app folder:
+
+```
+cd src/app
+```
+
+Use the following command to run Hikmah-Wealth-Agents:
+
+```sh
+streamlit run app.py
+```
 
 ## 👏 Acknowledgments
 
