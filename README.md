@@ -1,4 +1,4 @@
-<img src="![image](https://github.com/Asman2010/Hikmah-Wealth-Agents/assets/142419243/aea9bd19-4fe8-4bd0-8c18-7fbdf8d282e6)" width="100" />
+<img src="🤖" width="100" />
 <p align="center">
     <h1 align="center">HIKMAH-WEALTH-AGENTS</h1>
 </p>
