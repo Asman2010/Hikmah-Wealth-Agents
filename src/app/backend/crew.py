@@ -43,7 +43,7 @@ class HikmahWealthAgentsCrew():
 			model= "mistralai/mixtral-8x22b-instruct-v0.1"
 		)
   
-		self.llama2_nvidia = ChatOpenAI(
+		self.llama3_nvidia = ChatOpenAI(
 			base_url = "https://integrate.api.nvidia.com/v1",
 			api_key = os.getenv("NIM"),
 			model= "meta/llama3-70b-instruct"
@@ -122,7 +122,7 @@ class HikmahWealthAgentsCrew():
 			verbose=True,
             tools=[self.search_web, self.search_g_news],
             allow_delegation=True,
-            llm=self.llama2_nvidia,
+            llm=self.llama3_nvidia,
             max_iter=self.max_iter,
             max_rpm=self.max_rpm,
             step_callback=lambda step: self.step_callback(step, "Investment Research Analyst"),
@@ -135,7 +135,7 @@ class HikmahWealthAgentsCrew():
 			verbose=True,
    			tools=[self.search_web, self.get_financials, self.search_g_news],
             allow_delegation=True,
-            llm=self.llama2_nvidia,
+            llm=self.llama3_nvidia,
             max_iter=self.max_iter,
             max_rpm=self.max_rpm,
             step_callback=lambda step: self.step_callback(step, "Financial Data Analyst"),
@@ -160,7 +160,7 @@ class HikmahWealthAgentsCrew():
 			config=self.agents_config['report_generator'],
 			verbose=True,
     		allow_delegation=False,
-            llm=self.llama2_nvidia,
+            llm=self.llama3_nvidia,
             max_iter=self.max_iter,
             max_rpm=self.max_rpm,
             step_callback=lambda step: self.step_callback(step, "Report Writer"),
