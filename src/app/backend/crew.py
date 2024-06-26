@@ -53,7 +53,7 @@ class HikmahWealthAgentsCrew():
 		self.agents_config = r"src\hikmah_wealth_agents\config\agents.yaml"
 		self.tasks_config = r"src\hikmah_wealth_agents\config\tasks.yaml"
 		self.max_iter = 5
-		self.max_rpm = 15
+		self.max_rpm = 25
 		self.search_web = search_web # if searxng is not working use SerperDevTool
 		self.news_analysis = news_analysis
 		self.search_g_news = search_news
